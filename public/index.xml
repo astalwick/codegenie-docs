@@ -1,61 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CodeGenie on Hugo Whisper Theme</title>
-    <link>codegenie.nsono.net/</link>
-    <description>Recent content in CodeGenie on Hugo Whisper Theme</description>
+    <title>CodeGenie</title>
+    <link>/</link>
+    <description>Recent content on CodeGenie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2023 15:14:39 +1000</lastBuildDate><atom:link href="codegenie.nsono.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 15:14:39 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install Hugo</title>
-      <link>codegenie.nsono.net/docs/install-hugo/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Install CodeGenie</title>
+      <link>/docs/install-codegenie/</link>
+      <pubDate>Wed, 31 May 2023 21:29:03 -0400</pubDate>
       
-      <guid>codegenie.nsono.net/docs/install-hugo/</guid>
-      <description>To use this theme you will need to have Hugo installed. If you don&amp;rsquo;t already have Hugo installed please follow the official installation guide
-Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets. Please make sure you have the Hugo Extended version installed. If you are not using the extended version this theme will not not compile.
-hugo version </description>
+      <guid>/docs/install-codegenie/</guid>
+      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
     </item>
     
     <item>
-      <title>Install Theme</title>
-      <link>codegenie.nsono.net/docs/install-theme/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Getting Started</title>
+      <link>/docs/getting-started/</link>
+      <pubDate>Wed, 31 May 2023 21:44:30 -0400</pubDate>
       
-      <guid>codegenie.nsono.net/docs/install-theme/</guid>
-      <description>Create a new Hugo site hugo new site mynewsite This will create a fresh Hugo site in the folder mynewsite.
-Install theme Copy or git clone this theme into the sites themes folder mynewsite/themes
-Install with Git cd mynewsite cd themes git clone https://github.com/jugglerx/hugo-whisper-theme.git Install from .zip file You can download the .zip file located here https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip.
-Extract the downloaded .zip inside the themes folder. Rename the extracted folder from hugo-whisper-theme-master -&amp;gt; hugo-whisper-theme.</description>
+      <guid>/docs/getting-started/</guid>
+      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>codegenie.nsono.net/docs/configure/</link>
+      <link>/docs/configure/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
       
-      <guid>codegenie.nsono.net/docs/configure/</guid>
+      <guid>/docs/configure/</guid>
       <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
     </item>
     
     <item>
-      <title>Specimen</title>
-      <link>codegenie.nsono.net/docs/specimen/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Editor Integration</title>
+      <link>/docs/editor-integration/</link>
+      <pubDate>Wed, 31 May 2023 21:38:31 -0400</pubDate>
       
-      <guid>codegenie.nsono.net/docs/specimen/</guid>
-      <description>Markdown Test Page Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem.
-Heading two Aute officia nulla deserunt do deserunt cillum velit magna. Officia veniam culpa anim minim dolore labore pariatur voluptate id ad est duis quis velit dolor pariatur enim.</description>
+      <guid>/docs/editor-integration/</guid>
+      <description>CodeGenie integrates with VSCode in both the Command Palette and the Context Menu.</description>
     </item>
     
     <item>
-      <title>Hugo Whisper</title>
-      <link>codegenie.nsono.net/docs/example/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <title>Code Insertion</title>
+      <link>/docs/code-insertion/</link>
+      <pubDate>Wed, 31 May 2023 21:37:32 -0400</pubDate>
       
-      <guid>codegenie.nsono.net/docs/example/</guid>
-      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
+      <guid>/docs/code-insertion/</guid>
+      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
+    </item>
+    
+    <item>
+      <title>Chat History</title>
+      <link>/docs/chat-history/</link>
+      <pubDate>Wed, 31 May 2023 21:37:45 -0400</pubDate>
+      
+      <guid>/docs/chat-history/</guid>
+      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
+    </item>
+    
+    <item>
+      <title>Issues &amp; Requests</title>
+      <link>/docs/issues-requests/</link>
+      <pubDate>Wed, 31 May 2023 21:40:23 -0400</pubDate>
+      
+      <guid>/docs/issues-requests/</guid>
+      <description>Github!</description>
+    </item>
+    
+    <item>
+      <title>Security &amp; Privacy</title>
+      <link>/docs/security-privacy/</link>
+      <pubDate>Wed, 31 May 2023 21:39:27 -0400</pubDate>
+      
+      <guid>/docs/security-privacy/</guid>
+      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
     </item>
     
   </channel>

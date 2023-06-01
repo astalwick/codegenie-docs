@@ -1,4 +1,4 @@
-baseURL = "codegenie.nsono.net"
+baseURL = ""
 languageCode = "en-us"
 title = "CodeGenie"
 themesDir = "themes"
@@ -51,3 +51,17 @@ summaryLength = 30
   [params.logo]
       mobile = "/images/logo-mobile.png"
       standard  = "/images/logo.png"
+
+[deployment]
+# Set the destination path on S3, including your bucket name
+[[deployment.targets]]
+  name = "s3"
+  URL = "s3://codegenie.nsono.net"
+
+  # Configure which files to deploy
+  [deployment.targets.s3]
+    bucket = "codegenie.nsono.net"
+    cloudfront_distribution_id = "E6P84L5XVTEEO"
+    acl = "public-read"
+    cache_control_header = "public, max-age=31536000, immutable"
+    # Add any other S3-specific configuration options here
