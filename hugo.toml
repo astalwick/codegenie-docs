@@ -31,25 +31,24 @@ summaryLength = 30
   google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
   homepage_image = '/images/recording.webm'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "CodeGenie is your ChatGPT-powered coding assistant."
+    meta_og_title = "CodeGenie"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_url = "https://codegenie.nsono.net"
+    meta_og_image = "https://codegenie.nsono.net/images/logo.png"
+    meta_og_description = "CodeGenie is your ChatGPT-powered coding assistant."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@astalwick"
+    meta_twitter_creator = "@astalwick"
 
   [params.logo]
-      mobile = "/images/logo-mobile.png"
+      mobile = "/images/logo.png"
       standard  = "/images/logo.png"
 
 [deployment]
@@ -63,5 +62,5 @@ summaryLength = 30
     bucket = "codegenie.nsono.net"
     cloudfront_distribution_id = "E6P84L5XVTEEO"
     acl = "public-read"
-    cache_control_header = "public, max-age=31536000, immutable"
+    cache_control_header = "public, max-age=86400, must-revalidate"
     # Add any other S3-specific configuration options here
