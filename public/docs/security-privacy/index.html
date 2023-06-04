@@ -99,19 +99,15 @@
     </li>
     
     <li class="">
-      <a href="/docs/configure/">Configuration</a>
-    </li>
-    
-    <li class="">
-      <a href="/docs/editor-integration/">Editor Integration</a>
-    </li>
-    
-    <li class="">
       <a href="/docs/code-insertion/">Code Insertion</a>
     </li>
     
     <li class="">
       <a href="/docs/chat-history/">Chat History</a>
+    </li>
+    
+    <li class="">
+      <a href="/docs/configure/">Configuration</a>
     </li>
     
     <li class="">
@@ -131,9 +127,24 @@
           
 <h1 class="title">Security &amp; Privacy</h1>
 <div class="content ">
-  <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.</p>
+  <p>Security and Privacy are incredibly important. There are a ton of ChatGPT-related extensions in the VSCode marketplace, and it&rsquo;s definitely worth giving them a look. Be sure, however, to take their security and treatment of your API key into consideration.</p>
+<h2 id="codegenie-securityprivacy-pledge">CodeGenie Security/Privacy Pledge</h2>
+<p>CodeGenie promises:</p>
+<ol>
+<li>We will respect your API key and store it securely. Other extensions make use VSCode&rsquo;s extension settings to store the API key. This is not a secure place to store secrets because it is not encrypted and third-party extensions can gain access to your key. CodeGenie uses VSCode&rsquo;s <a href="https://code.visualstudio.com/api/references/vscode-api#SecretStorage">Secret Storage</a> to keep your API key secure.</li>
+<li>We will never send your API key to any other server or system than OpenAI itself. Your API key is given to CodeGenie <em>only</em> in order to enable CodeGenie to make requests of OpenAI; there is no reason to send it anywhere else.</li>
+<li>We will not store or send your chat history, requests or responses anywhere. We store chat history on disk; there is no need to persist to a server.</li>
+</ol>
+<p>It is possible that we may add features that require the use of a server: for example, synchronizing chat histories from one machine to another. To that end, we also pledge:</p>
+<ol start="4">
+<li>If ever CodeGenie introduces a feature that requires a server, we will make that feature fully opt-in.</li>
+</ol>
+<h2 id="security-or-privacy-issues">Security or Privacy Issues?</h2>
+<p>If you do find a bug or are concerned about a security or privacy related issue, please feel free to reach out:</p>
+<ul>
+<li><a href="https://github.com/astalwick/codegenie-docs/issues">Github</a></li>
+<li><a href="mailto:arlen@nsono.net">arlen@nsono.net</a></li>
+</ul>
 
 </div>
 </div>

@@ -2,26 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/install-codegenie/</loc>
-    <lastmod>2023-05-31T21:29:03-04:00</lastmod>
-  </url><url>
     <loc>/docs/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
+    <loc>/docs/install-codegenie/</loc>
+    <lastmod>2023-05-31T21:29:03-04:00</lastmod>
+  </url><url>
     <loc>/docs/getting-started/</loc>
     <lastmod>2023-05-31T21:44:30-04:00</lastmod>
-  </url><url>
-    <loc>/docs/configure/</loc>
-    <lastmod>2019-02-11T19:30:08+10:00</lastmod>
-  </url><url>
-    <loc>/docs/editor-integration/</loc>
-    <lastmod>2023-05-31T21:38:31-04:00</lastmod>
   </url><url>
     <loc>/docs/code-insertion/</loc>
     <lastmod>2023-05-31T21:37:32-04:00</lastmod>
   </url><url>
     <loc>/docs/chat-history/</loc>
     <lastmod>2023-05-31T21:37:45-04:00</lastmod>
+  </url><url>
+    <loc>/docs/configure/</loc>
+    <lastmod>2019-02-11T19:30:08+10:00</lastmod>
   </url><url>
     <loc>/docs/issues-requests/</loc>
     <lastmod>2023-05-31T21:40:23-04:00</lastmod>

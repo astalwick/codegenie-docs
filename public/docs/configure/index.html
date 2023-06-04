@@ -98,20 +98,16 @@
       <a href="/docs/getting-started/">Getting Started</a>
     </li>
     
-    <li class="active ">
-      <a href="/docs/configure/">Configuration</a>
-    </li>
-    
-    <li class="">
-      <a href="/docs/editor-integration/">Editor Integration</a>
-    </li>
-    
     <li class="">
       <a href="/docs/code-insertion/">Code Insertion</a>
     </li>
     
     <li class="">
       <a href="/docs/chat-history/">Chat History</a>
+    </li>
+    
+    <li class="active ">
+      <a href="/docs/configure/">Configuration</a>
     </li>
     
     <li class="">
@@ -131,33 +127,16 @@
           
 <h1 class="title">Configuration</h1>
 <div class="content ">
-  <h2 id="syntax-highlighting">Syntax Highlighting</h2>
-<p>Whisper uses the in-built code highlighting that ships with hugo. <a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a></p>
-<p>You can insert code snippets in any markdown file by using standard code fences syntax ie:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```
-</span></span><span class="line"><span class="cl">insert code here
-</span></span><span class="line"><span class="cl">```
-</span></span></code></pre></div><p>You can specify the langauge by adding a declaration after the backticks</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```javascript
-</span></span><span class="line"><span class="cl">insert code here
-</span></span><span class="line"><span class="cl">```
-</span></span></code></pre></div><h3 id="pygments-options">Pygments Options</h3>
-<p>The following code highlighting options are configured in the <code>config.toml</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsCodefencesGuessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div><h2 id="main-menu">Main menu</h2>
-<p>Configure the main menu by editing the <code>config.toml</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Home&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Docs&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/docs/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-</span></span></code></pre></div>
+  <h2 id="configurable-prompts-and-models">Configurable prompts and models</h2>
+<p>You&rsquo;re in control here. CodeGenie allows you to fully customize all of the preset prompts, including the alignment prompt sent at the beginning of every chat. Would you like CodeGenie to take on a more specific persona or to be more direct in its feedback?  Modify the Alignment prompt.  Is the refactor command not doing exactly what you&rsquo;d like it to? Change the &lsquo;CodeGenie: Refactor&rsquo; prompt!</p>
+
+
+<div style="text-align: center;">
+  <video style="width: 100%; height: auto;" src="/images/docs/configure.webm" alt="Video of configuring CodeGenie" autoplay loop muted></video>
+</div>
+
+<p>Also configurable in CodeGenie is the specific LLM model used. You can choose from either gpt-3.5-turbo (default) or gpt-4. Note that not everyone has access to GPT-4 right now, so if selecting GPT-4 fails, verify your access with <a href="https://platform.openai.com">OpenAI</a></p>
+
 </div>
 </div>
 

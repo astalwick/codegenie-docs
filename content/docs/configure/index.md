@@ -6,48 +6,11 @@ weight: 50
 summary: Syntax highlighting and menus can be configured via `config.toml`.
 ---
 
-## Syntax Highlighting
+## Configurable prompts and models
 
-Whisper uses the in-built code highlighting that ships with hugo. https://gohugo.io/content-management/syntax-highlighting/
+You're in control here. CodeGenie allows you to fully customize all of the preset prompts, including the alignment prompt sent at the beginning of every chat. Would you like CodeGenie to take on a more specific persona or to be more direct in its feedback?  Modify the Alignment prompt.  Is the refactor command not doing exactly what you'd like it to? Change the 'CodeGenie: Refactor' prompt!
 
-You can insert code snippets in any markdown file by using standard code fences syntax ie:
+{{< centervideo src="/images/docs/configure.webm" alt="Video of configuring CodeGenie" >}}
 
-````
-```
-insert code here
-```
-````
+Also configurable in CodeGenie is the specific LLM model used. You can choose from either gpt-3.5-turbo (default) or gpt-4. Note that not everyone has access to GPT-4 right now, so if selecting GPT-4 fails, verify your access with [OpenAI](https://platform.openai.com)
 
-You can specify the langauge by adding a declaration after the backticks
-
-````
-```javascript
-insert code here
-```
-````
-
-### Pygments Options
-
-The following code highlighting options are configured in the `config.toml`
-
-```toml
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-```
-
-## Main menu
-
-Configure the main menu by editing the `config.toml`
-
-```toml
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Docs"
-url = "/docs/"
-weight = 2
-```

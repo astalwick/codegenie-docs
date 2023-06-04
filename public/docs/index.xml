@@ -22,7 +22,28 @@
       <pubDate>Wed, 31 May 2023 21:44:30 -0400</pubDate>
       
       <guid>/docs/getting-started/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
+      <description>Getting started with CodeGenie is simple. There are two ways to interact with CodeGenie: By using the VSCode &lt;a href=&#34;/docs/getting-started#command-palette&#34;&gt;Command Palette&lt;/a&gt;, or by using the &lt;a href=&#34;/docs/getting-started#context-menu&#34;&gt;Context Menu&lt;/a&gt; directly in your source code windows.</description>
+    </item>
+    
+    <item>
+      <title>Code Insertion</title>
+      <link>/docs/code-insertion/</link>
+      <pubDate>Wed, 31 May 2023 21:37:32 -0400</pubDate>
+      
+      <guid>/docs/code-insertion/</guid>
+      <description>Easy Bi-Directional Code Insertion CodeGenie makes it simple to send code from the CodeGenie panel to the Editor and back. This makes it amazingly fast to ask questions about your code, or to immediately apply CodeGenie&amp;rsquo;s suggestions.
+Editor to CodeGenie You can easily copy highlighted text from the Editor to CodeGenie by clicking on the blue &amp;lsquo;Copy Selection from Editor&amp;rsquo; button that is beside the CodeGenie input text area. When snippets are copied from the Editor to CodeGenie, they are included as Markdown code snippets and remain fully editable.</description>
+    </item>
+    
+    <item>
+      <title>Chat History</title>
+      <link>/docs/chat-history/</link>
+      <pubDate>Wed, 31 May 2023 21:37:45 -0400</pubDate>
+      
+      <guid>/docs/chat-history/</guid>
+      <description>CodeGenie fully supports resumeable chat histories and chat history browsing, saved locally to your machine.
+Chats are organized according to active workspace, to make it easier to refer back to relevant chats from the past.
+By default, CodeGenie automatically resumes the most recent conversation when you trigger a command. However, it is very easy to start a new chat - just click the &amp;lsquo;Start a New Chat&amp;rsquo; button before you ask your question.</description>
     </item>
     
     <item>
@@ -35,39 +56,14 @@
     </item>
     
     <item>
-      <title>Editor Integration</title>
-      <link>/docs/editor-integration/</link>
-      <pubDate>Wed, 31 May 2023 21:38:31 -0400</pubDate>
-      
-      <guid>/docs/editor-integration/</guid>
-      <description>CodeGenie integrates with VSCode in both the Command Palette and the Context Menu.</description>
-    </item>
-    
-    <item>
-      <title>Code Insertion</title>
-      <link>/docs/code-insertion/</link>
-      <pubDate>Wed, 31 May 2023 21:37:32 -0400</pubDate>
-      
-      <guid>/docs/code-insertion/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
-    </item>
-    
-    <item>
-      <title>Chat History</title>
-      <link>/docs/chat-history/</link>
-      <pubDate>Wed, 31 May 2023 21:37:45 -0400</pubDate>
-      
-      <guid>/docs/chat-history/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
-    </item>
-    
-    <item>
       <title>Issues &amp; Requests</title>
       <link>/docs/issues-requests/</link>
       <pubDate>Wed, 31 May 2023 21:40:23 -0400</pubDate>
       
       <guid>/docs/issues-requests/</guid>
-      <description>Github!</description>
+      <description>CodeGenie is pretty new! So please do expect some issure here and there.
+If you do have any problems to report, or any feature requests you&amp;rsquo;d like to make, I&amp;rsquo;d really love to hear them. You have three great options:
+Submit an issue on the CodeGenie Github Repo Tweet at me (https://twitter.com/@astalwick) or message me on Mastodon (@astalwick@mastodon.social) Email me directly: arlen@nsono.net </description>
     </item>
     
     <item>
@@ -76,7 +72,9 @@
       <pubDate>Wed, 31 May 2023 21:39:27 -0400</pubDate>
       
       <guid>/docs/security-privacy/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</description>
+      <description>Security and Privacy are incredibly important. There are a ton of ChatGPT-related extensions in the VSCode marketplace, and it&amp;rsquo;s definitely worth giving them a look. Be sure, however, to take their security and treatment of your API key into consideration.
+CodeGenie Security/Privacy Pledge CodeGenie promises:
+We will respect your API key and store it securely. Other extensions make use VSCode&amp;rsquo;s extension settings to store the API key. This is not a secure place to store secrets because it is not encrypted and third-party extensions can gain access to your key.</description>
     </item>
     
   </channel>
