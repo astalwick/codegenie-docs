@@ -1,0 +1,29 @@
+# Hugo output folder
+/public/
+
+# Generated files and thumbnails
+/resources/
+.sass-cache/
+.cache/
+*.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*.swp
+
+# Ignore theme folders by name
+/themes/*/node_modules/
+/themes/*/bower_components/
+/themes/*/dist/
+/themes/*/sass/
+/themes/*/assets/
+
+# Ignore user-specific files
+.env
+.secret
+
+# Ignore Hugo config files in subfolders
+**/config.toml
+**/config.yaml
+**/config.json
