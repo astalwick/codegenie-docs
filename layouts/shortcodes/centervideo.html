@@ -1,0 +1,5 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+<div style="text-align: center;">
+  <video style="width: 100%; height: auto;" src="{{ $src }}" alt="{{ $alt }}" autoplay loop muted></video>
+</div>
