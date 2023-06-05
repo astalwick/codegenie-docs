@@ -19,7 +19,7 @@ For example, to refactor some code, you simply need to:
   2. Hit Ctrl/Cmd-Shift-P
   3. Type 'codegenie' and select 'CodeGenie: Refactor Code'
 
-  {{< centervideo src="/images/docs/command-palette-refactor.webm" alt="Command Palette Refactor" >}}
+  {{< centervideo src="/images/docs/command-palette-refactor" alt="Command Palette Refactor" >}}
 
 ## Context Menu
 For those of us who love the mouse, CodeGenie integrates directly into the Context Menu of your source code editor. Simply right-click on a highlighted snippet of code, and select your CodeGenie command.
@@ -28,4 +28,4 @@ The same refactor example looks like this:
 1. Highlight your code
 2. Right-click and select 'CodeGenie: Refactor Code'
 
-  {{< centervideo src="/images/docs/context-menu-refactor.webm" alt="Context Menus Refactor" >}}
+  {{< centervideo src="/images/docs/context-menu-refactor" alt="Context Menus Refactor" >}}

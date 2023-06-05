@@ -8,7 +8,7 @@ weight: 1
 
 Supercharge your coding with CodeGenie - the free development tool that brings ChatGPT straight to your editor. Streamline your workflow with Refactor, Comment Code, Code Review, and Ask a Question commands, all within your CodeGenie panel. Imagine the power of chat.openai.com, but with seamless editor integration.
 
-{{< centervideo src="/images/recording.webm" alt="CodeGenie Demo Video" >}}
+{{< centervideo src="/images/recording" alt="CodeGenie Demo Video" >}}
 
 ### Features
 

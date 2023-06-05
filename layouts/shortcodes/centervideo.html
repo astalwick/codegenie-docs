@@ -1,5 +1,9 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" }}
 <div style="text-align: center;">
-  <video style="width: 100%; height: auto;" src="{{ $src }}" alt="{{ $alt }}" autoplay loop muted></video>
+  <video style="width: 100%; height: auto;" alt="{{ $alt }}" autoplay loop muted>
+    <source src="{{ $src }}.webm" type="video/webm" ></source>
+    <source src="{{ $src }}.mov" type="video/mp4" ></source>
+    <img src="{{ $src }}.gif" alt="{{ $alt }}">
+  </video>
 </div>

@@ -142,7 +142,11 @@
 
 
 <div style="text-align: center;">
-  <video style="width: 100%; height: auto;" src="/images/docs/configure.webm" alt="Video of configuring CodeGenie" autoplay loop muted></video>
+  <video style="width: 100%; height: auto;" alt="Video of configuring CodeGenie" autoplay loop muted>
+    <source src="/images/docs/configure.webm" type="video/webm" ></source>
+    <source src="/images/docs/configure.mov" type="video/mp4" ></source>
+    <img src="/images/docs/configure.gif" alt="Video of configuring CodeGenie">
+  </video>
 </div>
 
 <p>Also configurable in CodeGenie is the specific LLM model used. You can choose from either gpt-3.5-turbo (default) or gpt-4. Note that not everyone has access to GPT-4 right now, so if selecting GPT-4 fails, verify your access with <a href="https://platform.openai.com">OpenAI</a></p>

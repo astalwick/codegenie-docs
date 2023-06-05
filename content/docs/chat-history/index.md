@@ -17,12 +17,12 @@ This is a newer area of the CodeGenie feature set, so additional changes will be
 
 To start a new chat, you can click the '...' button at the top right of the CodeGenie window and then click the 'New Chat' button.
 
-{{< centervideo src="/images/docs/history-new-chat.webm" alt="Video of creating a new chat in CodeGenie" >}}
+{{< centervideo src="/images/docs/history-new-chat" alt="Video of creating a new chat in CodeGenie" >}}
 
 ### Load Previous Chat
 
 To load a past conversation, click the '...' button at the top right of the CodeGenie panel, then use the dropdown to select the chat you'd like to load.
 
-{{< centervideo src="/images/docs/history-load-chat.webm" alt="Video of loading an existing chat within CodeGenie" >}}
+{{< centervideo src="/images/docs/history-load-chat" alt="Video of loading an existing chat within CodeGenie" >}}
 
 
