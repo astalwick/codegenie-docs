@@ -31,6 +31,8 @@ summaryLength = 30
   google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
+  homepage_button_link2 = 'https://marketplace.visualstudio.com/items?itemName=astalwick.codegenie'
+  homepage_button_text2 = 'Get CodeGenie!'
   homepage_image = '/images/recording.webm'
 
   ## You can enable to add anchor links to header elements
